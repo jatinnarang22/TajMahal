@@ -1,0 +1,54 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	background-image:url(signup3.png);
+	background-size:cover;
+}
+
+
+.contactform{
+	width: 40%;
+	padding: 90px;
+	background:rgb(0,0,0,0.7);
+	border-radius: 20%;
+	margin-top: 40px;
+	margin-left: 400px;
+}
+.contactform h2{
+	font-size: 30px;
+	color:#fff;
+	font-weight: 500;
+
+}
+.contactform .input{
+	position: relative;
+	width: 100;
+	margin-top: 10px;
+}
+.contactform .input input,.contactform .input textarea{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin:10px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline:none;
+}
+
+.contactform .input input[type="submit"]{
+	width: 100px;
+	background:#00bcd4;
+	color:#fff;
+	border:none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+
+
+}
+
+

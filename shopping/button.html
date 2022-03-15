@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#r1").click(function(){
+				$(this).animate({left:"59px"},"fast")
+				$("body").css("background-color","black")
+				$("h1").css("color","white")
+				
+			})
+			$("#r1").dblclick(function(){
+				$(this).animate({left:"0px"},'fast')
+				$("body").css("background-color","white")
+				$("h1").css("color","black")
+			
+			})
+		
+		})
+	</script>
+</head>
+<body>
+	<div style="margin-left:620px;content: justify;border-radius: 50px;height: 20px;width: 80px;background-color: white;border:1px solid black">
+		<div id='r1'style="position:relative;border-radius: 50px;height: 20px;width:20px;background-color: black">
+			
+		</div>
+		
+	</div><br><br>
+	<h1 style="text-align: center"><b>Toggle Using JQuery</b>	</h1>
+
+</body>
+</html>
