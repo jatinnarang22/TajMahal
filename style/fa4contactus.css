@@ -1,0 +1,172 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+section{
+	position:relative;
+	min-height: 100vh;
+	padding:50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column; 
+	background-image:url(../images/contactus1.jpg);
+	background-size:cover;
+	
+}
+section .contact{
+	max-width: 800px;
+	text-align: center;
+    
+}
+/*section .contact h1{
+	font-size: 36px;
+	font-weight: 500;
+	color:red;
+}*/
+
+.contact-heading span{
+	display: inline-block;
+	color: red;
+	font-size: 65px;
+	margin: 0.5rem;
+	padding-top: 10px;
+	margin-top:5px
+}
+
+section .contact p{
+	font-weight: bold;
+	font-size: 30px;
+	color:white;
+	
+	
+}
+
+
+.container{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 5px;
+
+}
+.container .contactinfo{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.container .contactinfo .box{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+.container .contactinfo .box .icon{
+	min-width: 60px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 35px;
+	color: white;
+}
+
+.container .contactinfo .box .icon:hover{
+	color:#34ebe5;
+	box-shadow: 0px 0px 8px 8px #34ebe5;
+}
+
+.container .contactinfo .box .text{
+	display: flex;
+	margin-left:20px;
+	font-size: 16px;
+	color:#fff;
+	flex-direction: column;
+	font-weight: 300;
+
+}
+.container .contactinfo .box .text h3{
+	font-weight: 500;
+	color:#00bcd4;
+}
+.contactform{
+	width: 40%;
+	padding: 40px;
+	background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, #e3daeb, #339c98);
+	border-radius: 20%;
+
+}
+.contactform h2{
+	font-size: 30px;
+	color:#333;
+	font-weight: 500;
+}
+.contactform .input{
+	position: relative;
+	width: 100;
+	margin-top: 10px;
+}
+.contactform .input input,.contactform .input textarea{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin:10px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline:none;
+	background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, #e3daeb, #339c98);
+}
+
+.contactform .input input[type="submit"]{
+	width: 100px;
+	background:#00bcd4;
+	color:#fff;
+	border:none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px
+	
+}
+
+
+.hh{
+  background: rgb(0, 0, 0, 30);
+  
+  padding: 1px 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  text-transform: uppercase;
+  height: 64px;
+   
+}
+.hh ul{
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+.hh ul li{
+  width: 150px;
+  margin: 10px;
+  margin-top:2px;
+  padding:10px;
+}
+.hh ul li a{
+  text-decoration: none;
+  color: #fff;
+
+}	
+
+.active,.hh ul li:hover{
+  color:black;
+  background: rgb(120,120,120,11);
+  border-radius: 8px;
+}  	

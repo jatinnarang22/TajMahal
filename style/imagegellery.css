@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+*{
+font-family: 'Lato', sans-serif;
+padding: 0;
+margin: 0;
+}
+body{
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(#3a6186,#89253e);
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+.container{
+	position: relative;
+	width: 1100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+.container .card{
+	position: relative;
+	max-width:  300px;
+	height: 215px;
+	background-color: rgba(255, 255, 255, .15);  
+  
+	margin:30px 10px;
+	padding:20px 15px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+	transition: 0.4s ease-in-out;
+
+}
+.container .card:hover{
+	height: 337px;
+}
+.container .card .imgbx{
+	position: relative;
+	width: 260px;
+	height: 160px;
+	top: -60px;
+	left: 20px;
+	z-index: 1;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+	cursor: pointer;
+
+}
+.container .card .imgbx img{
+	max-width: 100%;
+	border-radius: 4px;
+}
+.container .card .imgbx img:hover{
+	transform: scale(1.1);
+	 transition: height 0.5s ease-out;
+  background: linear-gradient(to bottom, transparent 0%, black 100%);
+
+}
+.container .card .content{
+	position: relative;
+	margin-top: -140px;
+	padding:10px 15px;
+	text-align: center;
+	color: #111;
+	visibility: hidden;
+	opacity: 0;
+	transform: 0.3s ease-in-out; 
+} 
+.container .card:hover .content{
+	visibility: visible;
+	opacity: 1;
+	margin-top:-40px;
+	transition-delay: 0.3s;  
+}
+.container .card .content h2:hover{
+	cursor: pointer;
+	font-size: 27px;
+}
+button{
+	text-decoration: none;
+	background-color: transparent;
+	border: none;
+	color: orange;
+	font-weight: bold;
+	cursor:pointer;
+
+}
+
+
+.background-border{
+	background-image: url("frame59.jpg");
+    background-color: #cccccc;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+    background-repeat: repeat-x;
+    background-size: 50% 50px;
+    position: relative;
+}

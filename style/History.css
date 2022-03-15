@@ -1,0 +1,120 @@
+body{
+	 background-image: url(../images/frame58.jpg);
+}
+
+
+#mainDesign1{
+    width: 25vw;
+    height: 10vh;
+}
+#main p{
+    color:#033E9A;
+    font-size: 50px;
+    font-family: Niconne;
+    text-align: center;
+}
+#mainDesign2{
+    width: 10vw;
+    height: 5vh;
+}
+#mainList{
+    list-style: none;
+    
+    text-align:center;
+    margin:auto
+}
+#mainList li{
+    display: inline-block;
+    padding:0px 25px 0px 25px;
+    color: #033E9A;
+    font-size: 20px;
+    font-style: oblique;
+}
+#content{
+    border: 5px solid rgb(238, 133, 150);
+    border-radius:10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#blockquotes{
+    text-align: center;
+}
+#blockquotes span{
+    font-weight: bolder;
+}
+#contentHistory:first-letter{
+    color: rgb(194, 47, 72);
+    font-size: 80px;
+    float:left;
+    line-height: 0.7;
+    font-family:Georgia;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+#mumtazTitle{
+    color:#033E9A;
+    font-family: Niconne;
+    font-size: 45px;
+}
+#mumtazImage{
+    margin-bottom: 25px;
+}
+#shahjahanTitle{
+    color:#033E9A;
+    font-family: Niconne;
+    font-size: 45px;
+}
+#shahjahanImage{
+    margin-bottom: 25px;
+}
+#lastDesign{
+    width:25vw;
+    height: 8vh;
+}
+#factsTitle{
+    color:#033E9A;
+    font-family: Niconne;
+    font-size: 45px;
+}
+#highlightFacts{
+    color: rgb(184, 23, 50);
+    margin:10px;
+    font-size: 20px;
+    font-family:RocknRoll One;
+}
+#Mumtaz{
+    display:none;
+}
+#ShahJahan{
+    display:none;
+}
+#facts{
+    display:none;
+}
+
+.hh{
+  background: black;
+  
+  padding: 1px 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  text-transform: uppercase;
+  height: 64px;
+   
+}
+.hh ul{
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+.hh ul li{
+  width: 120px;
+  margin: 10px;
+  margin-top:2px;
+  padding:10px;
+}
+.hh ul li a{
+  text-decoration: none;
+  color: #fff;
+
+}

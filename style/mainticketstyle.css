@@ -1,0 +1,283 @@
+.section {
+	position: relative;
+	height: 100vh;
+}
+
+.section .section-center {
+	position: absolute;
+	top: 10%;
+    
+	left: 0;
+	right: 0;
+	
+}
+
+#booking {
+	font-family: 'Alice', serif;
+	background: rgba(133, 104, 73, 0.33);
+	background-image: linear-gradient(to bottom right, #e3daeb, #dbbb1a);
+	
+}
+
+.booking-form {
+	position: relative;
+	max-width: 900px;
+	width: 100%;
+	margin: auto;
+	background: #fff;
+	border-radius: 6px;
+	
+}
+
+.booking-form .booking-bg {
+	position: absolute;
+	left: 10px;
+	top: -35px;
+	bottom: -35px;
+	width: 400px;
+	background-image: url("taj mahal 2.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 25px;
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+.booking-bg::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: rgba(133, 104, 73, 0.78);
+}
+
+
+
+.form-header {
+	margin-bottom: 60px;
+	margin-top: 60px;
+	position: relative;
+	z-index: 20;
+}
+
+.form-header h2 {
+	font-family: 'Playfair Display', serif;
+	margin-top: 0;
+	margin-bottom: 15px;
+	font-weight: 900;
+	color: #fff;
+	font-size: 42px;
+	text-transform: capitalize;
+}
+
+.form-header p {
+	color: #fff;
+	font-size: 18px;
+}
+
+
+form {
+	margin-left: 425px;
+	padding: 30px;
+}
+.form-group {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.form-control {
+	background-color: #fff;
+	height: 45px;
+	padding: 0px 15px;
+	color: #f11212;
+	border: 1px solid #e5e5e5;
+	font-size: 16px;
+	font-weight: 700;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 40px;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+	color: #e5e5e5;
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+	color: #e5e5e5;
+}
+
+.booking-form .form-control::placeholder {
+	color: #e5e5e5;
+}
+
+.booking-form .form-control:focus {
+	background: #f8f8f8;
+}
+
+.booking-form input[type="date"].form-control:invalid {
+	color: #e5e5e5;
+}
+
+.booking-form select.form-control {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.booking-form select.form-control:invalid {
+	color: #e5e5e5;
+}
+
+.booking-form select.form-control option {
+	color: #151515;
+}
+
+.booking-form select.form-control+.select-arrow {
+	position: absolute;
+	right: 3px;
+	bottom: 5px;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	pointer-events: none;
+	color: #e5e5e5;
+	font-size: 14px;
+}
+
+.booking-form select.form-control+.select-arrow:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.booking-form .form-label {
+	color: #856849;
+	text-transform: uppercase;
+	line-height: 24px;
+	height: 24px;
+	font-size: 14px;
+	font-weight: 400;
+	margin-left: 20px;
+}
+
+.booking-form .form-btn {
+	margin-top: 30px;
+}
+
+.booking-form .submit-btn {
+	display: block;
+	width: 100%;
+	color: #fff;
+	background-color: rgba(133, 104, 73, 0.9);
+	font-weight: 700;
+	font-size: 18px;
+	border: none;
+	border-radius: 40px;
+	height: 55px;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+.booking-form .submit-btn:hover,
+.booking-form .submit-btn:focus {
+	background-color: rgba(133, 104, 73, 1);
+}
+
+@media only screen and (max-width: 768px) {
+	.booking-form .booking-bg {
+		position: relative;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: -15px;
+		width: 95%;
+		margin: auto;
+	}
+	.booking-form>form {
+		margin-left: 0px;
+	}
+}
+
+
+.border{
+
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin: 10px;
+  }
+  .containersmall{
+
+    height: 117px;
+    width: 233px;
+    display: block;
+    margin: 5px;
+  }
+
+  table{
+	margin-top: 50px;
+	text-align: center;
+	background: #dbb314;
+	color: blue;
+}
+
+#show th, #show td{
+	padding: 13px;
+}
+
+#btna td input{
+	width: 100%;
+}
+
+
+#emailandphone{
+	display: flex;
+    justify-content:space-around; 
+}
+
+#txt1{
+	height: 40px;
+	width: 300px;
+}
+
+#No1{
+	height: 40px;
+	width: 300px;
+}
+
+
+.hh{
+  background: rgb(0, 0, 0, 30);
+  
+  padding: 1px 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  text-transform: uppercase;
+  height: 64px;
+   
+}
+.hh ul{
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+.hh ul li{
+  width: 120px;
+  margin: 10px;
+  margin-top:2px;
+  padding:10px;
+}
+.hh ul li a{
+  text-decoration: none;
+  color: #fff;
+
+}
